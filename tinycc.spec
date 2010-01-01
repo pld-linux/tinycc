@@ -12,7 +12,7 @@ Source0:	http://www.landley.net/code/tinycc/downloads/%{name}-%{version}-%{pre}.
 #Patch0:		%{name}-DESTDIR.patch
 ExclusiveArch:	%{ix86}
 URL:		http://www.landley.net/code/tinycc/
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		tinyccdir	%{_prefix}/lib/tinycc
 
 %description
