@@ -42,7 +42,7 @@ install include/* $RPM_BUILD_ROOT%{tinyccdir}/include
 install *-tinycc $RPM_BUILD_ROOT%{_bindir}
 
 %clean
-rm -rf ${RPM_BUILD_ROOT}
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
